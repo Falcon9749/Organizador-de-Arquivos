@@ -16,3 +16,4 @@ for arquivo in lista_arquivos:
     para = os.path.join(os.getcwd(), pasta_destino, arquivo)
     if os.path.exists(de):
         os.replace(de, para)
+        print(f"Arquivo '{arquivo}' movido para a pasta '{pasta_destino}' com sucesso.")
